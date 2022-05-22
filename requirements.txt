@@ -4,3 +4,4 @@ tensorboard
 addict
 sklearn
 pathspec
+colorama
