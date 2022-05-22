@@ -23,8 +23,9 @@ griding_num = 100
 use_aux = True
 
 # LOSS
-sim_loss_w = 1.0
-shp_loss_w = 0.0
+sim_loss_w = 0.5
+shp_loss_w = 0.5
+shp_lines_w = 0.0
 
 # EXP
 note = ''
