@@ -172,6 +172,6 @@ import tqdm
 def dist_tqdm(obj, *args, **kwargs):
     if can_log():
         return tqdm.tqdm(obj, *args, **kwargs, bar_format='%s{l_bar}{bar}{r_bar}' % Fore.BLUE,
-                         desc='training', ncols=150)
+                         desc='training')
     else:
         return obj
